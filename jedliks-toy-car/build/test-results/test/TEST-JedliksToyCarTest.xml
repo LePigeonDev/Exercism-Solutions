@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JedliksToyCarTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-02T09:35:01" hostname="Surface-Book2" time="0.064">
+  <properties/>
+  <testcase name="task:1 :The static buy method returns a new remote controlled car instance" classname="JedliksToyCarTest" time="0.039"/>
+  <testcase name="task:2 :The distanceDisplay method shows 0 meters message on a new car" classname="JedliksToyCarTest" time="0.006"/>
+  <testcase name="task:4 :The distanceDisplay method shows the correct message after driving once" classname="JedliksToyCarTest" time="0.001"/>
+  <testcase name="task:5 :The batteryDisplay method shows the correct message after driving once" classname="JedliksToyCarTest" time="0.001"/>
+  <testcase name="task:6 :The distanceDisplay method shows the correct message after driving and draining all battery" classname="JedliksToyCarTest" time="0.0"/>
+  <testcase name="task:5 :The batteryDisplay method shows battery empty after draining all battery" classname="JedliksToyCarTest" time="0.001"/>
+  <testcase name="task:5 :The batteryDisplay method shows the correct battery percentage after driving multiple times" classname="JedliksToyCarTest" time="0.001"/>
+  <testcase name="task:1 :The static buy method returns each time a new remote controlled car instance" classname="JedliksToyCarTest" time="0.003"/>
+  <testcase name="task:4 :The distanceDisplay method shows the correct message after driving multiple times" classname="JedliksToyCarTest" time="0.001"/>
+  <testcase name="task:3 :The batteryDisplay method shows full battery message on a new car" classname="JedliksToyCarTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

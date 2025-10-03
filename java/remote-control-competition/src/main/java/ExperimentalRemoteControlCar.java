@@ -1,10 +1,15 @@
-public class ExperimentalRemoteControlCar {
+public class ExperimentalRemoteControlCar implements RemoteControlCar {
+    private final int units;
+    private int travelled = 0;
 
+    public ExperimentalRemoteControlCar() {
+        this.units = 20;
+    }
     public void drive() {
-        throw new UnsupportedOperationException("Please implement the ExperimentalRemoteControlCar.drive() method");
+        travelled += units;
     }
 
     public int getDistanceTravelled() {
-        throw new UnsupportedOperationException("Please implement the ExperimentalRemoteControlCar.getDistanceTravelled() method");
+        return travelled;
     }
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarsAssembleTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-10-05T14:17:32" hostname="Surface-Book2" time="0.186">
+  <properties/>
+  <testcase name="task:2 :The workingItemsPerMinute should be 16 when line's speed is 5" classname="CarsAssembleTest" time="0.157"/>
+  <testcase name="task:2 :The workingItemsPerMinute should be 26 when line's speed is 9" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:2 :The workingItemsPerMinute should be 0 when line's speed is 0" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:2 :The workingItemsPerMinute should be 26 when line's speed is 8" classname="CarsAssembleTest" time="0.002"/>
+  <testcase name="task:1 :The productionRatePerHour method returns the correct result when line's speed is 7" classname="CarsAssembleTest" time="0.003"/>
+  <testcase name="task:2 :The workingItemsPerMinute should be 3 when line's speed is 1" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:2 The workingItemsPerMinute should be 28 when line's speed is 10" classname="CarsAssembleTest" time="0.0"/>
+  <testcase name="task:1 :The productionRatePerHour method returns the correct result when line's speed is 1" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:1 :The productionRatePerHour method returns the correct result when line's speed is 10" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:1 :The productionRatePerHour method returns the correct result when line's speed is 4" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:1 :The productionRatePerHour method returns the correct result when line's speed is 9" classname="CarsAssembleTest" time="0.001"/>
+  <testcase name="task:1 :The productionRatePerHour method returns the correct result when line's speed is 0" classname="CarsAssembleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

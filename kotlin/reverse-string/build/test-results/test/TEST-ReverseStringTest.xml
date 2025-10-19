@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReverseStringTest" tests="7" skipped="6" failures="0" errors="0" timestamp="2025-10-19T09:09:58" hostname="Surface-Book2" time="0.022">
+  <properties/>
+  <testcase name="single word" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="sentence with punctuation" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="even-sized word" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="capitalized word" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="empty string" classname="ReverseStringTest" time="0.021"/>
+  <testcase name="apply twice" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="palindrome word" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -2,6 +2,7 @@
 
 # Donnée les droits à gradle
 chmod +x gradlew
+./gradlew clean --refresh-dependencies
 
 # Télécharger un exercice
 exercism download --exercise=hello-world 

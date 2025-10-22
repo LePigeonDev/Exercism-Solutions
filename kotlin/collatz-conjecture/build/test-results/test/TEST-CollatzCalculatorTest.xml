@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CollatzCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-10-22T13:11:53" hostname="Surface-Book2" time="0.019">
+  <properties/>
+  <testcase name="invalid input - negative" classname="CollatzCalculatorTest" time="0.004"/>
+  <testcase name="even and odd steps" classname="CollatzCalculatorTest" time="0.013"/>
+  <testcase name="divide if even" classname="CollatzCalculatorTest" time="0.001"/>
+  <testcase name="invalid input - zero" classname="CollatzCalculatorTest" time="0.0"/>
+  <testcase name="zero steps for 1" classname="CollatzCalculatorTest" time="0.0"/>
+  <testcase name="large number of even and odd steps" classname="CollatzCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

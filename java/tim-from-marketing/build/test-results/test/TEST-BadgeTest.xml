@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BadgeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-24T18:14:04" hostname="Surface-Book2" time="0.064">
+<testsuite name="BadgeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-24T18:16:48" hostname="Surface-Book2" time="0.06">
   <properties/>
-  <testcase name="task:3: Printing a badge for the owner" classname="BadgeTest" time="0.059"/>
+  <testcase name="task:3: Printing a badge for the owner" classname="BadgeTest" time="0.055"/>
   <testcase name="task:2: Printing a badge for a new employee" classname="BadgeTest" time="0.001"/>
   <testcase name="task:1: Printing a badge for an employee" classname="BadgeTest" time="0.0"/>
   <testcase name="task:3: Printing a badge for the owner who is a new employee" classname="BadgeTest" time="0.001"/>

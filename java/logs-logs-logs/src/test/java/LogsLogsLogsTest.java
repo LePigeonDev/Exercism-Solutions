@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class LogsLogsLogsTest {
     @Test
     @Tag("task:1")
-    @DisplayName("Parsing log level TRC")
+    @DisplayName("task:1 Parsing log level TRC")
     public void getLogLevelTrace() {
         var logLine = new LogLine("[TRC]: Line 84 - System.out.println(\"Hello World\");");
         assertThat(logLine.getLogLevel()).isEqualTo(LogLevel.valueOf("TRACE"));
@@ -15,7 +15,7 @@ public class LogsLogsLogsTest {
 
     @Test
     @Tag("task:1")
-    @DisplayName("Parsing log level DBG")
+    @DisplayName("task:1 Parsing log level DBG")
     public void parseLogLevelDbg() {
         var logLine = new LogLine("[DBG]: ; expected");
         assertThat(logLine.getLogLevel()).isEqualTo(LogLevel.valueOf("DEBUG"));

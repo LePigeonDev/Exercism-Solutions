@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogsLogsLogsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2025-11-24T16:40:05" hostname="Surface-Book2" time="0.083">
+  <properties/>
+  <testcase name="Get short log output for log level INFO" classname="LogsLogsLogsTest" time="0.057"/>
+  <testcase name="Parsing unknown log level ABC" classname="LogsLogsLogsTest" time="0.002"/>
+  <testcase name="task:1 Parsing log level DBG" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Parsing log level ERR" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Parsing log level FTL" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Parsing log level INF" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Parsing log level WRN" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Parsing unknown log level XYZ" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Get short log output for log level WARNING" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="task:1 Parsing log level TRC" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Get short log output for log level UNKNOWN" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Get short log output for log level DEBUG" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Get short log output for log level ERROR" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Get short log output for log level FATAL" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Get short log output for log level TRACE" classname="LogsLogsLogsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

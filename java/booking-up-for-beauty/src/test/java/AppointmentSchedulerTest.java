@@ -18,7 +18,7 @@ public class AppointmentSchedulerTest {
     public void testSchedule() {
         var description = "07/25/2019 13:45:00";
         var expected = LocalDateTime.of(2019, 7, 25, 13, 45, 0);
-
+        
         assertThat(scheduler.schedule(description)).isEqualTo(expected);
     }
 

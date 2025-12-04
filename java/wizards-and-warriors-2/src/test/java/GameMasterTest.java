@@ -122,7 +122,7 @@ public class GameMasterTest {
 
     @Test
     @Tag("task:4")
-    @DisplayName("Implemented the describeCharacterToDestinationByTravelMethod method")
+    @DisplayName("task:4: Implemented the describeCharacterToDestinationByTravelMethod method")
     public void implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod() {
         assertThat(new GameMasterProxy().hasMethod("describe", Character.class, Destination.class, TravelMethod.class))
                 .withFailMessage("Please implement the 'describe(Character character, Destination destination, " +
@@ -143,7 +143,7 @@ public class GameMasterTest {
 
     @Test
     @Tag("task:4")
-    @DisplayName("Describe a character traveling to a destination")
+    @DisplayName("task:4: Describe a character traveling to a destination")
     public void describeCharacterTravelingToDestinationWithExplicitTravelMethod() {
         Character character = new Character();
         character.setCharacterClass("Wizard");
@@ -179,7 +179,7 @@ public class GameMasterTest {
 
     @Test
     @Tag("task:5")
-    @DisplayName("Combined description should handle character and destination with default travel method")
+    @DisplayName("task:5: Combined description should handle character and destination with default travel method")
     public void describeCharacterTravelingToDestinationWithoutExplicitTravelMethod() {
         Character character = new Character();
         character.setCharacterClass("Warrior");

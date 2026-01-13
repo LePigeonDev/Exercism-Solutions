@@ -1,114 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DialingCodesTest" tests="12" skipped="0" failures="12" errors="0" timestamp="2026-01-13T14:06:45.950Z" hostname="surfacebook2" time="0.049">
+<testsuite name="DialingCodesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-01-13T18:02:21.177Z" hostname="surfacebook2" time="0.092">
   <properties/>
-  <testcase name="addNewDialingCode leaves already added code" classname="DialingCodesTest" time="0.022">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testAddNewDialingCodeLeavesExistingCode(DialingCodesTest.java:92)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="setDialingCode updates existing entry" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.setDialingCode(DialingCodes.java:11)
-	at DialingCodesTest.testSetDialingCodeUpdatesEntry(DialingCodesTest.java:34)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="getCountry returns a code's country" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.setDialingCode(DialingCodes.java:11)
-	at DialingCodesTest.testGetCountryForCode(DialingCodesTest.java:59)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="addNewDialingCode adds new codes" classname="DialingCodesTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testAddNewDialingCodeAddsNewCodes(DialingCodesTest.java:80)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="setDialingCode with multiple entries" classname="DialingCodesTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.setDialingCode(DialingCodes.java:11)
-	at DialingCodesTest.testSetDialingCodeWithMultipleEntries(DialingCodesTest.java:45)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="findDialingCode returns null for country not yet added" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testFindDialingCodeWithUnlistedCountry(DialingCodesTest.java:126)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="updateDialingCode updates the map" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testUpdateDialingCode(DialingCodesTest.java:136)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="getCodes initially returns an empty map" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.getCodes(DialingCodes.java:6)
-	at DialingCodesTest.testGetCodesReturnsMap(DialingCodesTest.java:16)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="findDialingCode returns a country's dialing code" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testFindDialingCode(DialingCodesTest.java:116)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="getCountry returns updated country" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.setDialingCode(DialingCodes.java:11)
-	at DialingCodesTest.testGetCountryForUpdatedCode(DialingCodesTest.java:69)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="addNewDialingCode leaves already added country" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testAddNewDialingCodeLeavesExistingCountry(DialingCodesTest.java:105)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="setDialingCode adds new entry" classname="DialingCodesTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.setDialingCode(DialingCodes.java:11)
-	at DialingCodesTest.testSetDialingCodeAddsEntry(DialingCodesTest.java:24)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
+  <testcase name="task:4: addNewDialingCode leaves already added code" classname="DialingCodesTest" time="0.065"/>
+  <testcase name="task:2: setDialingCode updates existing entry" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:3: getCountry returns a code's country" classname="DialingCodesTest" time="0.003"/>
+  <testcase name="task:4: addNewDialingCode adds new codes" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:2: setDialingCode with multiple entries" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:5: findDialingCode returns null for country not yet added" classname="DialingCodesTest" time="0.003"/>
+  <testcase name="task:6: updateDialingCode updates the map" classname="DialingCodesTest" time="0.002"/>
+  <testcase name="task:1: getCodes initially returns an empty map" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:5: findDialingCode returns a country's dialing code" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:3: getCountry returns updated country" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:4: addNewDialingCode leaves already added country" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="task:2: setDialingCode adds new entry" classname="DialingCodesTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

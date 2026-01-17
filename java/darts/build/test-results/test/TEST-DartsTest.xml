@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DartsTest" tests="13" skipped="12" failures="1" errors="0" timestamp="2026-01-17T09:46:49.247Z" hostname="surfacebook2" time="0.029">
+<testsuite name="DartsTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-01-17T10:51:05.886Z" hostname="surfacebook2" time="0.069">
   <properties/>
-  <testcase name="Exactly on center" classname="DartsTest" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase name="On the inner circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Just within the inner circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Just within the middle circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Asymmetric position between the inner and middle circles" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Near the center" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Missed target" classname="DartsTest" time="0.019">
-    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at Darts.score(Darts.java:3)
-	at DartsTest.missedTarget(DartsTest.java:13)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-</failure>
-  </testcase>
-  <testcase name="Just outside the outer circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Just outside the middle circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="On the middle circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="On the outer circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Just within the outer circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Just outside the inner circle" classname="DartsTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="Exactly on center" classname="DartsTest" time="0.051"/>
+  <testcase name="On the inner circle" classname="DartsTest" time="0.001"/>
+  <testcase name="Just within the inner circle" classname="DartsTest" time="0.001"/>
+  <testcase name="Just within the middle circle" classname="DartsTest" time="0.0"/>
+  <testcase name="Asymmetric position between the inner and middle circles" classname="DartsTest" time="0.0"/>
+  <testcase name="Near the center" classname="DartsTest" time="0.001"/>
+  <testcase name="Missed target" classname="DartsTest" time="0.001"/>
+  <testcase name="Just outside the outer circle" classname="DartsTest" time="0.001"/>
+  <testcase name="Just outside the middle circle" classname="DartsTest" time="0.0"/>
+  <testcase name="On the middle circle" classname="DartsTest" time="0.0"/>
+  <testcase name="On the outer circle" classname="DartsTest" time="0.001"/>
+  <testcase name="Just within the outer circle" classname="DartsTest" time="0.001"/>
+  <testcase name="Just outside the inner circle" classname="DartsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

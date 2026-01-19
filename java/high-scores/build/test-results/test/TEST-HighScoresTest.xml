@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HighScoresTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-01-19T10:58:28.896Z" hostname="surfacebook2" time="0.097">
+  <properties/>
+  <testcase name="Latest score after personal best" classname="HighScoresTest" time="0.074"/>
+  <testcase name="Personal top three from a list of scores" classname="HighScoresTest" time="0.006"/>
+  <testcase name="Personal best" classname="HighScoresTest" time="0.001"/>
+  <testcase name="List of scores" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Latest score" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Latest score after personal top scores" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Scores after personal top scores" classname="HighScoresTest" time="0.0"/>
+  <testcase name="Personal top when there is only one" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Scores after personal best" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Personal top when there is a tie" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Personal top highest to lowest" classname="HighScoresTest" time="0.001"/>
+  <testcase name="Personal top when there are less than 3" classname="HighScoresTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -18,7 +18,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("1"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("grains on square 2")
     public void countAtSquare2() {
@@ -26,7 +26,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("2"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("grains on square 3")
     public void countAtSquare3() {
@@ -34,7 +34,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("4"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("grains on square 4")
     public void countAtSquare4() {
@@ -42,7 +42,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("8"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("grains on square 16")
     public void countAtSquare16() {
@@ -50,7 +50,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("32768"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("grains on square 32")
     public void countAtSquare32() {
@@ -58,7 +58,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("2147483648"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("grains on square 64")
     public void countAtSquare64() {
@@ -66,7 +66,7 @@ public class GrainsTest {
         assertThat(result).isEqualTo(new BigInteger("9223372036854775808"));
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("square 0 is invalid")
     public void errorOnNullBoardSize() {
@@ -75,7 +75,7 @@ public class GrainsTest {
                 .withMessage("square must be between 1 and 64");
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("negative square is invalid")
     public void errorOnNegativeBoardSize() {
@@ -84,7 +84,7 @@ public class GrainsTest {
                 .withMessage("square must be between 1 and 64");
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("square greater than 64 is invalid")
     public void errorOnExcessiveBoardSize() {
@@ -93,7 +93,7 @@ public class GrainsTest {
                 .withMessage("square must be between 1 and 64");
     }
 
-    @Disabled("Remove to run test")
+
     @Test
     @DisplayName("returns the total number of grains on the board")
     public void totalNumberOfGrainsOnABoard() {
